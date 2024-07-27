@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+html{
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+header{
+
+background-color: black;
+
+font-family: Arial, Helvetica, sans-serif;
+
+height: 100px;
+padding-left: 50px;
+padding-right: 50px;
+
+background-image: url("digiart.jpg");
+background-size: cover;
+background-position: center;
+
+
+}
+.App{
+  background-image: url("digiart.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1{
+color: rgb(255, 255, 255);
+text-align: center;
+padding-top: 30px;
+padding-left: 230px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body body {
+
+  background-image: url("digiart.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+body body ul{
+
+padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.userid{
+
+  float: right;
+padding-top: 30px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#row1 {
+
+  padding-top: 130px;
+}
+
+#home_button{
+  padding-top: 30px;
+float: right;
+
+
+
+
 }
