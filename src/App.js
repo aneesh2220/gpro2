@@ -6,6 +6,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
+import login_page from "./login";
 
 function App() {
   let sites = {
@@ -25,6 +26,23 @@ function App() {
       link: "https://discord.com",
     },
   };
+
+  let open_login = ()=>{
+
+window.open("login.html", '_blank')
+
+
+  };
+
+
+
+
+
+
+
+
+
+
   return (
     <div class="App">
       <div className="header">
@@ -73,9 +91,10 @@ function App() {
               professional teams.
             </li>
           </ul>
-
+<div id="ul1">
+  <center>
           <h1>Key features</h1>
-          <br></br>
+          
           <p> 1Text channels:</p>
           <ul>
             <li>Allows users to communicate via text.</li>
@@ -84,19 +103,30 @@ function App() {
               be set for who can view or post in them.
             </li>
             </ul>
+      </center>
+            </div>
+
+            
+            <div id="ul2">
+            <center>
             <p> 2.Servers:</p>
             <ul>
               <li>The backbone of Discord, servers are community hubs. </li>
               <li>Each server can have multiple text and voice channels.</li>
             </ul>
+            </center>
+            </div>
 
-
+<div id="ul3">
+<center>
             <p>3.Direct Messaging:</p>
           <ul>
 <li>Private messages can be sent between users.</li>
 <li>Group direct messages are also available.</li>
 
           </ul>
+          </center>
+          </div>
 
           <Row id="row1">
             <Col>
@@ -109,8 +139,17 @@ function App() {
               <Bootcard site={sites.Discord}></Bootcard>
             </Col>
           </Row>
+
+<div id="letsgo">
+ 
+          <Button onClick={open_login} target="_blank" variant="primary" > Lets go !</Button>
+          
+          </div>
         </body>
       </div>
+
+
+
     </div>
   );
 }

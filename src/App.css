@@ -74,3 +74,37 @@ float: right;
 
 
 }
+
+#ul1 p {
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+
+}
+
+
+#ul2 p {
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  
+
+}
+
+#ul3 p {
+
+
+  text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+
+}
+
+
+#letsgo{
+text-align: center;
+
+}

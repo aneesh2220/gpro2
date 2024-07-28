@@ -1,0 +1,56 @@
+html {
+    body {
+        background-image: url("assets/bg3.jpg");
+        /* Optionally, you can add other background properties */
+        background-size: cover; /* Adjusts the background image to cover the entire body */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+      }
+      
+}
+
+
+.login_page {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 600px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+
+
+.login_page username {
+    
+    margin-top: 20px;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #080652;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #15e8f7;
+    transform: scale(1.05);
+  }
+  
+ 
+  
