@@ -2,7 +2,7 @@ import React from 'react'
 import './login.css';
 
 
- function Login() {
+ function login() {
   return (
     
     <div class="login_page">
