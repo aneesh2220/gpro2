@@ -1,12 +1,13 @@
 import "./App.css";
 import Bootcard from "./card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
-import login_page from "./login";
+import './login.css';
+import login from "./login";
 
 function App() {
   let sites = {
@@ -27,12 +28,12 @@ function App() {
     },
   };
 
-  let open_login = ()=>{
+  // let open_login = ()=>{
 
-window.open("login.html", '_blank')
+  //   <login/>
 
 
-  };
+  // };
 
 
 
@@ -142,7 +143,7 @@ window.open("login.html", '_blank')
 
 <div id="letsgo">
  
-          <Button onClick={open_login} target="_blank" variant="primary" > Lets go !</Button>
+          <Button href="login.js" target="_blank" variant="primary" > Lets go !</Button>
           
           </div>
         </body>

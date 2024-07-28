@@ -1,6 +1,6 @@
-html {
+.login_page {
     body {
-        background-image: url("assets/bg3.jpg");
+        background-image: url("./red_grass.jpeg");
         /* Optionally, you can add other background properties */
         background-size: cover; /* Adjusts the background image to cover the entire body */
         background-position: center; /* Centers the background image */
