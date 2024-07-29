@@ -7,7 +7,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
 import './login.css';
-import login from "./login";
 
 function App() {
   let sites = {
@@ -28,12 +27,12 @@ function App() {
     },
   };
 
-  // let open_login = ()=>{
+   let open_login = ()=>{
 
-  //   <login/>
+    <login/>
 
 
-  // };
+   };
 
 
 
@@ -143,7 +142,7 @@ function App() {
 
 <div id="letsgo">
  
-          <Button href="login.js" target="_blank" variant="primary" > Lets go !</Button>
+          <Button href="/login.js" target="_blank" variant="primary" > Lets go !</Button>
           
           </div>
         </body>
