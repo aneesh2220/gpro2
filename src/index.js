@@ -6,12 +6,37 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import Login from './login.js';
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { sites } from "./data";
+
+
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let route = createBrowserRouter([
+
+{
+path: "/",
+element : <App/>
+},
+
+{
+path : "/login/:login_page",
+element : <Login/>
+
+
+}
+
+]
+)
+
+
 root.render(
   <React.StrictMode>
-    <App />
-    
+  <RouterProvider router={route}/>
   </React.StrictMode>
 );
 

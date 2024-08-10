@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 function Bootcard({site}) {
     
@@ -11,7 +12,7 @@ function Bootcard({site}) {
         <Card.Text>
           {site.desc}
         </Card.Text>
-        <Button variant="primary" href={site.link}>Go somewhere</Button>
+        <Button variant="primary"><Link to={`/login/${site.name}`}>Gooo</Link></Button>
       </Card.Body>
     </Card>
   );
